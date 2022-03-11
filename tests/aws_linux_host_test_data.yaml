@@ -1,0 +1,11 @@
+
+host: 3.68.105.182
+user_name: ec2-user
+ssh_config_path: /home/pavel/PycharmProjects/testinfra
+ports:
+    - 22
+    - 5000
+packages:
+    -docker
+docker_image_id: 37529445436578/flask-api
+root_volume_size: 8

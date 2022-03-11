@@ -1,0 +1,5 @@
+Host ec2
+  Hostname 18.196.17.53
+  IdentityFile /home/pavel/vp_aws_key.pem
+  Port 22
+  StrictHostKeyChecking no
